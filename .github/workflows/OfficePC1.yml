@@ -12,8 +12,8 @@ jobs:
       - name: Connect to Tailscale (Ephemeral, OAuth)
         uses: tailscale/github-action@v4
         with:
-          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}    # kzDEViULxt11CNTRL
-          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}          # tskey-client-kzDEViULxt11CNTRL-81xdSNtREYNZqsr7w12nYNWsVVHcsjRK
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}    # k8dwKbQNWc11CNTRL
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}          # tskey-client-k8dwKbQNWc11CNTRL-jTp4YQ2owUJJ7AXahtwVVJ5uyM7XJ67k
           tags: tag:gitofficerd1
 
       - name: Configure Core RDP Settings
